@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Layout menggunakan Frameset dan Iframe</title>
+</head>
+<frameset rows="10%, 20%, 65%, 10%" border="1">
+    <frame src="head.html" name="header" noresize="true">
+    <frame src="nav.html" name="nav" noresize="true">
+    
+    <frameset cols="70%, 30%">
+        <frameset rows="50%, 50%">
+            <frame src="main.html" name="main" noresize="true">
+            <frame src="section.html" name="section" noresize="true">
+        </frameset>
+        <frame src="aside.html" name="aside" noresize="true">
+    </frameset>
+
+    <frame src="footer.html" name="footer" noresize="true">
+</frameset>
+</html>
